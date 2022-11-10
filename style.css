@@ -1,0 +1,55 @@
+.light{
+    background-color: bisque;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+     max-width: 500px;
+  margin: auto;
+  background: rgb(207, 130, 130);
+  padding: 10px;
+
+}
+.header{
+    text-align: center;
+}
+.form{
+    padding: 20px;
+    margin: 10px;
+}
+.name{
+    padding-top: 10px;
+}
+.light:first-child{
+    padding-bottom: 10px ;
+    padding-top: 10px;
+
+}
+.lastname{
+    padding: 10px;
+}
+.email{
+    padding: 10px;
+}
+.address{
+    padding: 10px;
+}
+.color{
+    padding: 10px;
+}
+.size{
+    padding: 10px;
+
+}
+.buying{
+    padding: 10px;
+}
+.calender{
+    padding: 10px;
+}
+.done{
+    display: flex;;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 25px;
+    }

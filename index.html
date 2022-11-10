@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link   rel="stylesheet" href="style.css">
+<script type="text/javascript" src="index.js"></script>
+<title>T-Shirt form</title>
+</head>
+<body class="light">
+<header class="header">T-Shirt Form Control</header>
+<form>
+<fieldset class="form">
+
+<legend class="header">Please fill out this form</legend>
+<div class="name"></div>
+<label for="name">First Name:</label>
+<input type="text" name="name"  id="Firstname" required>
+</div>
+<div class="lastname">
+<label for="Last name">Last Name:</label>
+<input type="text" name="lastname" id="lastname" required>
+</div>
+<div class="email">
+    <label for="email">Your Email Address:</label>
+    <input type="email" id="email" required>
+</div>
+<div class="address">
+    <label for="address">Address:</label>
+    <input type="Address" id="address" required>
+</div>
+<section>
+    <label for="color"> which color do you want?</label>
+    <select class="color">
+    <option value="red">red</option>
+    <option value="Blue">blue</option>
+    <option value="purple">purple</option>
+    <option value="yellow">yellow</option>
+    </select>
+</section>
+<section class="size">
+    <label for="size">What size do you like?</label>
+    <select name="size" id="size">
+        <option value="XS">XS</option>
+        <option value="S">S</option>
+        <option value="M">M</option>
+        <option value="L">L</option>
+        <option value="XL">XL</option>
+        <option value="XXL">XXl</option>
+    </select>
+</section>
+    <div class="calender">
+    <label for="date">when do you like to have it?</label>
+        <label for="Delivery"></label>
+<input type="date" id="Delivery" name="delivery">
+<input type="submit">
+    </div>
+    
+        <div>
+        <p>How would you like to receive your item?</p>
+        </div>
+        <div>
+              <input type="radio" id="collect" name="fav_language" value="collect">
+  <label for="collect">collect</label><br>
+  <input type="radio" id="post" name="fav_language" value="post">
+  <label for="post">post</label><br>
+            </div>
+              
+    
+    <div class="done">
+    <button>Done</button>
+    </div>  
+</fieldset>
+</form>
+
+</body>
+</html>
